@@ -8,4 +8,4 @@ restaurant_sum = restaurant_cost + restaurant_cost*restaurant_tip*0.01
 teacher_cost = teacher_attendent_number*restaurant_sum/student_attendent_number 
 sum_cost = teacher_cost + restaurant_sum
 
-print('教師費用是： %1.0f , 學生個人+教師費用是：%2.0f' %(teacher_cost, sum_cost)) #計算後的答案，其小數點後的數字不取
+print('教師費用是： %1.0f , 學生個人+教師費用是：%2.0f' %(teacher_cost, sum_cost)) #計算後的答案，其小數點後的數字不取   
