@@ -5,4 +5,4 @@ def teacher_party_expense(teacher_attendent_number, student_attendent_number, re
     sum_cost = teacher_cost + restaurant_sum
     return (teacher_cost, sum_cost)
 
-teacher_party_expense(13, 30, 780, 10)      #Q:怎樣在函式中將價格四捨五入?
+teacher_party_expense(5, 40, 700, 10)      #Q:怎樣在函式中將價格四捨五入?
