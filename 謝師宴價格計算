@@ -1,4 +1,4 @@
-#計算謝師宴費用 
+#計算謝師宴費用 (超陽春使用方法)
 teacher_attendent_number = int(input('出席教師人數: '))  
 student_attendent_number = int(input('出席學生人數: '))
 restaurant_cost = int(input('餐廳個人費用: '))
