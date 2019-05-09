@@ -1,0 +1,8 @@
+#使用函式計算謝師宴費用
+def teacher_party_expense(teacher_attendent_number, student_attendent_number, restaurant_cost, restaurant_tip):
+    restaurant_sum = restaurant_cost + restaurant_cost*restaurant_tip*0.01
+    teacher_cost = teacher_attendent_number*restaurant_sum/student_attendent_number 
+    sum_cost = teacher_cost + restaurant_sum
+    return (teacher_cost, sum_cost)
+
+teacher_party_expense(13, 30, 780, 10)      #Q:怎樣在函式中將價格四捨五入?
